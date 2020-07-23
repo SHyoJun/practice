@@ -8,7 +8,12 @@
 
   /* TODO */
   /* 포지션 구현하기 */
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  z-index: 4;
   /* 불투명도 구현하기 */
+  opacity:0.2;
 }
 .todo_2 {
   width: 500px;
@@ -17,7 +22,12 @@
 
   /* TODO */
   /* 포지션 구현하기 */
+  position: absolute;
+  top: 200px;
+  left: 250px;
+  z-index: 2;
   /* 불투명도 구현하기 */
+  opacity:0.2;
 }
 .todo_3 {
   width: 500px;
@@ -26,7 +36,12 @@
 
   /* TODO */
   /* 포지션 구현하기 */
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  z-index: 1;
   /* 불투명도 구현하기 */
+  opacity:0.2;
   /* 사진 위로 오게끔 하기 */
 }
 
@@ -36,4 +51,5 @@
 
   position: absolute;
   top: 200px;
+  z-index: 0;
 }
